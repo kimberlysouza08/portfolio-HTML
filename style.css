@@ -1,0 +1,66 @@
+
+    body{
+        background-color:#b3c3ca;
+        font-family:Arial, sans-serif;
+        margin:20px;
+    }
+ 
+    h1{
+        text-align:center;
+        color:#eee9bf;
+    }
+ 
+    header h2{
+        color:#838540;
+        text-align:center;
+    }
+    
+    nav ul{
+        list-style:none;
+        display:flex;
+        gap:20px;
+        justify-content:center;
+        padding:0;
+    }
+
+    nav a{
+        text-decoration:none;
+        color:rgb(125, 126, 86);
+        font-weight:bold;
+    }
+ 
+    section h3{
+        color:#416b75;
+        text-align:center;
+    }
+ 
+    .Projetos{
+        display:flex;
+    }
+
+    a:hover{
+        color: rgb(100, 124, 44);
+    }
+ 
+    section{
+        margin-top:40px;
+        border-bottom:1px solid #0e4158;
+        padding-bottom:20px;
+    }
+ 
+    section a{
+        color:#446429
+    }
+
+    img{
+        width:200px;
+        border-radius:10px;
+        display: flex;
+        justify-self: center;
+    }
+
+    footer{
+        text-align:center;
+        margin-top:40px;
+        color:rgb(2, 45, 70)
+    }
