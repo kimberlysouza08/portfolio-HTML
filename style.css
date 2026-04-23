@@ -23,6 +23,25 @@ header h1 {
     font-family: 'Chewy', cursive;
 }
 
+#modo-escuro {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2E5F73;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#modo-escuro:hover {
+    background-color: #e07388;
+}
+
 header h2 {
     color: #3e4d92;
     text-align: left;
@@ -237,4 +256,32 @@ footer {
     text-align: center;
     margin-top: 40px;
     color: #fe8282;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode nav {
+    background-color: #1f1f1f;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode p,
+.dark-mode li,
+.dark-mode a {
+    color: white;
+}
+
+.dark-mode .minhas-habilidades {
+    background-color: #222;
+}
+
+.dark-mode .rodape {
+    background-color: #1f1f1f;
 }
